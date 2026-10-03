@@ -1,0 +1,90 @@
+{
+  "version": "3.0",
+  "timestamp": 1791033491.8273973,
+  "accuracy": 62.5,
+  "total": 8,
+  "correct": 5,
+  "avg_latency_ms": 0.09682774543762207,
+  "results": [
+    {
+      "name": "客服工单分类",
+      "expected": "bug报告",
+      "actual": "功能咨询",
+      "passed": false,
+      "confidence": 0.5,
+      "risk_weight": 1.0,
+      "latency_ms": 0.23365020751953125,
+      "reasoning": "无选项"
+    },
+    {
+      "name": "紧急程度判断",
+      "expected": "紧急",
+      "actual": "低",
+      "passed": false,
+      "confidence": 0.5,
+      "risk_weight": 1.0,
+      "latency_ms": 0.09846687316894531,
+      "reasoning": "无选项"
+    },
+    {
+      "name": "变更风险评级",
+      "expected": "高",
+      "actual": "低",
+      "passed": false,
+      "confidence": 0.5,
+      "risk_weight": 1.0,
+      "latency_ms": 0.07677078247070312,
+      "reasoning": "无选项"
+    },
+    {
+      "name": "Skill路由",
+      "expected": "pptx",
+      "actual": "pptx",
+      "passed": true,
+      "confidence": 0.5,
+      "risk_weight": 1.0,
+      "latency_ms": 0.07128715515136719,
+      "reasoning": "无选项"
+    },
+    {
+      "name": "人工介入判断",
+      "expected": "是",
+      "actual": "是",
+      "passed": true,
+      "confidence": 0.5,
+      "risk_weight": 1.0,
+      "latency_ms": 0.06961822509765625,
+      "reasoning": "无选项"
+    },
+    {
+      "name": "优先级排序",
+      "expected": "数据库备份",
+      "actual": "数据库备份",
+      "passed": true,
+      "confidence": 0.5,
+      "risk_weight": 1.0,
+      "latency_ms": 0.06794929504394531,
+      "reasoning": "无选项"
+    },
+    {
+      "name": "异常告警判断",
+      "expected": "是",
+      "actual": "是",
+      "passed": true,
+      "confidence": 0.5,
+      "risk_weight": 1.0,
+      "latency_ms": 0.0762939453125,
+      "reasoning": "无选项"
+    },
+    {
+      "name": "扩容策略",
+      "expected": "扩容100%",
+      "actual": "扩容100%",
+      "passed": true,
+      "confidence": 0.75,
+      "risk_weight": 1.5,
+      "latency_ms": 0.08058547973632812,
+      "reasoning": "无选项"
+    }
+  ]
+}
