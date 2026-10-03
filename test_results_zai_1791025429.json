@@ -1,0 +1,74 @@
+{
+  "timestamp": 1791025429.1809802,
+  "llm_type": "glm-4.5-flash",
+  "accuracy": 87.5,
+  "total": 8,
+  "correct": 7,
+  "avg_latency_ms": 8297.92806506157,
+  "results": [
+    {
+      "name": "客服工单分类",
+      "expected": "bug报告",
+      "actual": "功能咨询",
+      "passed": false,
+      "confidence": 0.5,
+      "latency_ms": 10389.48678970337
+    },
+    {
+      "name": "紧急程度判断",
+      "expected": "紧急",
+      "actual": "紧急",
+      "passed": true,
+      "confidence": 0.95,
+      "latency_ms": 9447.711706161499
+    },
+    {
+      "name": "变更风险评级",
+      "expected": "高",
+      "actual": "高",
+      "passed": true,
+      "confidence": 0.85,
+      "latency_ms": 9111.400842666626
+    },
+    {
+      "name": "Skill路由",
+      "expected": "pptx",
+      "actual": "pptx",
+      "passed": true,
+      "confidence": 0.85,
+      "latency_ms": 9980.558395385742
+    },
+    {
+      "name": "人工介入判断",
+      "expected": "是",
+      "actual": "是",
+      "passed": true,
+      "confidence": 0.85,
+      "latency_ms": 7248.077154159546
+    },
+    {
+      "name": "优先级排序",
+      "expected": "数据库备份",
+      "actual": "数据库备份",
+      "passed": true,
+      "confidence": 0.85,
+      "latency_ms": 6880.669116973877
+    },
+    {
+      "name": "异常告警判断",
+      "expected": "是",
+      "actual": "是",
+      "passed": true,
+      "confidence": 0.98,
+      "latency_ms": 4364.776849746704
+    },
+    {
+      "name": "扩容策略",
+      "expected": "扩容100%",
+      "actual": "扩容100%",
+      "passed": true,
+      "confidence": 0.85,
+      "latency_ms": 8960.74366569519
+    }
+  ]
+}

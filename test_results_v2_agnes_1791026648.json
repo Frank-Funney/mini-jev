@@ -1,0 +1,83 @@
+{
+  "version": "2.0",
+  "llm": "agnes-2.5-flash",
+  "timestamp": 1791026648.990479,
+  "accuracy": 0.0,
+  "total": 8,
+  "correct": 0,
+  "avg_latency_ms": 24817.764669656754,
+  "results": [
+    {
+      "name": "客服工单分类",
+      "expected": "bug报告",
+      "actual": "error",
+      "passed": false,
+      "confidence": 0.0,
+      "latency_ms": 28497.889041900635,
+      "reasoning": "parse error"
+    },
+    {
+      "name": "紧急程度判断",
+      "expected": "紧急",
+      "actual": "error",
+      "passed": false,
+      "confidence": 0.0,
+      "latency_ms": 23018.46933364868,
+      "reasoning": "parse error"
+    },
+    {
+      "name": "变更风险评级",
+      "expected": "高",
+      "actual": "error",
+      "passed": false,
+      "confidence": 0.0,
+      "latency_ms": 21057.67035484314,
+      "reasoning": "parse error"
+    },
+    {
+      "name": "Skill路由",
+      "expected": "pptx",
+      "actual": "error",
+      "passed": false,
+      "confidence": 0.0,
+      "latency_ms": 21979.06255722046,
+      "reasoning": "parse error"
+    },
+    {
+      "name": "人工介入判断",
+      "expected": "是",
+      "actual": "error",
+      "passed": false,
+      "confidence": 0.0,
+      "latency_ms": 21526.041746139526,
+      "reasoning": "parse error"
+    },
+    {
+      "name": "优先级排序",
+      "expected": "数据库备份",
+      "actual": "error",
+      "passed": false,
+      "confidence": 0.0,
+      "latency_ms": 30405.32875061035,
+      "reasoning": "parse error"
+    },
+    {
+      "name": "异常告警判断",
+      "expected": "是",
+      "actual": "error",
+      "passed": false,
+      "confidence": 0.0,
+      "latency_ms": 23407.590866088867,
+      "reasoning": "parse error"
+    },
+    {
+      "name": "扩容策略",
+      "expected": "扩容100%",
+      "actual": "error",
+      "passed": false,
+      "confidence": 0.0,
+      "latency_ms": 28650.064706802368,
+      "reasoning": "parse error"
+    }
+  ]
+}

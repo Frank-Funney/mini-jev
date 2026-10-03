@@ -1,0 +1,83 @@
+{
+  "version": "2.0-fixed",
+  "llm": "agnes-2.5-flash",
+  "timestamp": 1791026884.6948657,
+  "accuracy": 87.5,
+  "total": 8,
+  "correct": 7,
+  "avg_latency_ms": 1098.796933889389,
+  "results": [
+    {
+      "name": "客服工单分类",
+      "expected": "bug报告",
+      "actual": "bug报告",
+      "passed": true,
+      "confidence": 0.92,
+      "latency_ms": 1065.3612613677979,
+      "reasoning": "错误500是服务器内部错误的标准代码，表明系统发生了意外故障或代码异常。用户反馈此类错误是在报告一个需要修复的技术缺陷（Bug），而非功能咨询或新需求。虽然它属于技术支持的范畴，但从问题性质分类来看，'bug报告'是对'系统返回错误'这一现象最精确的定义。"
+    },
+    {
+      "name": "紧急程度判断",
+      "expected": "紧急",
+      "actual": "紧急",
+      "passed": true,
+      "confidence": 0.9,
+      "latency_ms": 828.7360668182373,
+      "reasoning": "CPU占用率95%且持续告警表明系统处于严重过载状态，可能已影响业务响应或稳定性，需立即干预以防止服务中断。"
+    },
+    {
+      "name": "变更风险评级",
+      "expected": "高",
+      "actual": "高",
+      "passed": true,
+      "confidence": 0.9,
+      "latency_ms": 824.3224620819092,
+      "reasoning": "核心模块的函数签名变更是破坏性变更，会直接导致所有调用该函数的代码产生编译错误或运行时异常，需要全面排查并修改所有依赖方，回归测试范围广，风险极高。"
+    },
+    {
+      "name": "Skill路由",
+      "expected": "pptx",
+      "actual": "pptx",
+      "passed": true,
+      "confidence": 0.95,
+      "latency_ms": 897.9470729827881,
+      "reasoning": "用户明确要求生成PPT演示文稿，'pptx'是PPT文件的直接格式缩写，与任务目标精准匹配；其他选项中，'content-creation'过于宽泛，'data-analysis'不相关，'docx'对应Word文档而非PPT。"
+    },
+    {
+      "name": "人工介入判断",
+      "expected": "是",
+      "actual": "是",
+      "passed": true,
+      "confidence": 0.95,
+      "latency_ms": 829.8349380493164,
+      "reasoning": "系统连续收到3次以上用户投诉，表明问题可能涉及自动化处理无法解决的根本性缺陷或异常，需要人工介入进行排查、干预和优化。"
+    },
+    {
+      "name": "优先级排序",
+      "expected": "数据库备份",
+      "actual": "数据库备份",
+      "passed": true,
+      "confidence": 0.85,
+      "latency_ms": 849.8749732971191,
+      "reasoning": "数据库备份涉及数据资产的安全与完整性，具有不可逆的风险和合规强制性，通常优先级高于功能性测试。"
+    },
+    {
+      "name": "异常告警判断",
+      "expected": "是",
+      "actual": "是",
+      "passed": true,
+      "confidence": 0.98,
+      "latency_ms": 826.9953727722168,
+      "reasoning": "订单量同比大幅下降80%属于显著的异常波动，极可能由系统故障、供应链中断或市场环境剧变导致，应触发告警以便及时排查和响应。"
+    },
+    {
+      "name": "扩容策略",
+      "expected": "扩容100%",
+      "actual": "先观察",
+      "passed": false,
+      "confidence": 0.6,
+      "latency_ms": 2667.3033237457275,
+      "reasoning": "当前并发5万处于可控范围，预计增长到10万虽有压力但非突发峰值。盲目扩容100%成本高且可能造成资源浪费，扩容50%可能不足，不扩容风险较大。先观察可监控增长趋势、识别是否为真实业务增长还是短期波动，同时准备弹性扩容预案，实现成本与稳定性的平衡。"
+    }
+  ]
+}

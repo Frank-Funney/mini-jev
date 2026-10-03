@@ -1,0 +1,47 @@
+{
+  "version": "2.0-quick",
+  "llm": "glm-4.5-flash",
+  "timestamp": 1791026343.1735818,
+  "accuracy": 0.0,
+  "total": 4,
+  "correct": 0,
+  "avg_latency_ms": 23934.223473072052,
+  "results": [
+    {
+      "name": "客服工单分类",
+      "expected": "bug报告",
+      "actual": "error",
+      "passed": false,
+      "confidence": 0.0,
+      "latency_ms": 12135.65468788147,
+      "reasoning": "parse error"
+    },
+    {
+      "name": "紧急程度判断",
+      "expected": "紧急",
+      "actual": "error",
+      "passed": false,
+      "confidence": 0.0,
+      "latency_ms": 15989.747285842896,
+      "reasoning": "parse error"
+    },
+    {
+      "name": "变更风险评级",
+      "expected": "高",
+      "actual": "error",
+      "passed": false,
+      "confidence": 0.0,
+      "latency_ms": 63641.231060028076,
+      "reasoning": "API error"
+    },
+    {
+      "name": "Skill路由",
+      "expected": "pptx",
+      "actual": "error",
+      "passed": false,
+      "confidence": 0.0,
+      "latency_ms": 3970.2608585357666,
+      "reasoning": "API error"
+    }
+  ]
+}
