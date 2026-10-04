@@ -18,3 +18,10 @@ venv/
 htmlcov/
 *.json
 !test_results_*.json
+
+# 文章文件
+article_*.md
+
+# OS
+.DS_Store
+Thumbs.db
