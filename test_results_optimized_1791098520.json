@@ -1,0 +1,90 @@
+{
+  "version": "3.1_optimized",
+  "timestamp": 1791098520.4729986,
+  "accuracy": 37.5,
+  "total": 8,
+  "correct": 3,
+  "avg_latency_ms": 0.23376941680908203,
+  "results": [
+    {
+      "name": "客服工单分类",
+      "expected": "bug报告",
+      "actual": "bug报告",
+      "passed": true,
+      "confidence": 0.97,
+      "risk_weight": 1.0,
+      "latency_ms": 0.6005764007568359,
+      "reasoning": "检测到bug信号: '错误'"
+    },
+    {
+      "name": "紧急程度判断",
+      "expected": "紧急",
+      "actual": "中",
+      "passed": false,
+      "confidence": 0.8,
+      "risk_weight": 1.0,
+      "latency_ms": 0.20360946655273438,
+      "reasoning": "CPU负载高，但可稍后处理"
+    },
+    {
+      "name": "变更风险评级",
+      "expected": "高",
+      "actual": "中",
+      "passed": false,
+      "confidence": 0.75,
+      "risk_weight": 1.0,
+      "latency_ms": 0.17976760864257812,
+      "reasoning": "中等风险，可能可控"
+    },
+    {
+      "name": "Skill路由",
+      "expected": "pptx",
+      "actual": "pptx",
+      "passed": true,
+      "confidence": 0.65,
+      "risk_weight": 1.0,
+      "latency_ms": 0.1938343048095703,
+      "reasoning": "无法确定skill"
+    },
+    {
+      "name": "人工介入判断",
+      "expected": "是",
+      "actual": "否",
+      "passed": false,
+      "confidence": 0.6,
+      "risk_weight": 1.0,
+      "latency_ms": 0.16260147094726562,
+      "reasoning": "无需人工介入"
+    },
+    {
+      "name": "优先级排序",
+      "expected": "数据库备份",
+      "actual": "数据库备份",
+      "passed": true,
+      "confidence": 0.8,
+      "risk_weight": 1.0,
+      "latency_ms": 0.18668174743652344,
+      "reasoning": "无法判断优先级"
+    },
+    {
+      "name": "异常告警判断",
+      "expected": "是",
+      "actual": "否",
+      "passed": false,
+      "confidence": 0.4,
+      "risk_weight": 1.0,
+      "latency_ms": 0.15807151794433594,
+      "reasoning": "无异常信号"
+    },
+    {
+      "name": "扩容策略",
+      "expected": "扩容100%",
+      "actual": "先观察",
+      "passed": false,
+      "confidence": 0.6,
+      "risk_weight": 1.5,
+      "latency_ms": 0.1850128173828125,
+      "reasoning": "无明显增长信号，可保守观察\n[风险加权] 保守策略'先观察'在风险系数1.5下置信度已调整"
+    }
+  ]
+}

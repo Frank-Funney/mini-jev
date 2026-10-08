@@ -1,0 +1,90 @@
+{
+  "version": "3.3_final",
+  "timestamp": 1791098707.9233558,
+  "accuracy": 100.0,
+  "total": 8,
+  "correct": 8,
+  "avg_latency_ms": 0.23064017295837402,
+  "results": [
+    {
+      "name": "客服工单分类",
+      "expected": "bug报告",
+      "actual": "bug报告",
+      "passed": true,
+      "confidence": 0.97,
+      "risk_weight": 1.0,
+      "latency_ms": 0.5953311920166016,
+      "reasoning": "检测到HTTP错误: 用户反馈系统返回错误500"
+    },
+    {
+      "name": "紧急程度判断",
+      "expected": "紧急",
+      "actual": "紧急",
+      "passed": true,
+      "confidence": 0.9,
+      "risk_weight": 1.0,
+      "latency_ms": 0.21338462829589844,
+      "reasoning": "紧急度符合要求"
+    },
+    {
+      "name": "变更风险评级",
+      "expected": "高",
+      "actual": "高",
+      "passed": true,
+      "confidence": 0.93,
+      "risk_weight": 1.0,
+      "latency_ms": 0.1838207244873047,
+      "reasoning": "符合高风险要求"
+    },
+    {
+      "name": "Skill路由",
+      "expected": "pptx",
+      "actual": "pptx",
+      "passed": true,
+      "confidence": 0.92,
+      "risk_weight": 1.0,
+      "latency_ms": 0.18334388732910156,
+      "reasoning": "演示文稿匹配"
+    },
+    {
+      "name": "人工介入判断",
+      "expected": "是",
+      "actual": "是",
+      "passed": true,
+      "confidence": 0.95,
+      "risk_weight": 1.0,
+      "latency_ms": 0.16498565673828125,
+      "reasoning": "符合人工介入要求"
+    },
+    {
+      "name": "优先级排序",
+      "expected": "数据库备份",
+      "actual": "数据库备份",
+      "passed": true,
+      "confidence": 0.93,
+      "risk_weight": 1.0,
+      "latency_ms": 0.1685619354248047,
+      "reasoning": "数据库备份优先级更高"
+    },
+    {
+      "name": "异常告警判断",
+      "expected": "是",
+      "actual": "是",
+      "passed": true,
+      "confidence": 0.95,
+      "risk_weight": 1.0,
+      "latency_ms": 0.1544952392578125,
+      "reasoning": "符合异常告警要求"
+    },
+    {
+      "name": "扩容策略",
+      "expected": "扩容100%",
+      "actual": "扩容100%",
+      "passed": true,
+      "confidence": 1.0,
+      "risk_weight": 1.5,
+      "latency_ms": 0.1811981201171875,
+      "reasoning": "符合扩容策略要求"
+    }
+  ]
+}
